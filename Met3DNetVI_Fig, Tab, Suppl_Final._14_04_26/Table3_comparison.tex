@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Comparison of immunogenicity prediction methods on the held-out test set (n=1,200). Best values in bold. * DeepImmuno evaluated on 9/10mer peptides with supported alleles. ** PRIME 2.0 excludes mutant alleles. *** Seq2Neo requires additional IC50/TAP inputs.}
+\label{tab:table3_comparison}
+\begin{tabular}{lccccr}
+\toprule
+Method & AUC & F1 & Accuracy & AP & n \\
+\midrule
+Met-3DNet-VI v0.7 (ours) & 0.7602 & 0.5402 & 0.7192 & - & 1200/1200 \\
+DeepImmuno* & 0.5888 & 0.3983 & 0.4745 & 0.3450 & 1058/1200 \\
+PRIME 2.0** & 0.8454 & 0.5644 & 0.8195 & 0.6329 & 1180/1200 \\
+Seq2Neo*** & - & - & - & - & -/1200 \\
+\bottomrule
+\end{tabular}
+\end{table}
