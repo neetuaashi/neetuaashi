@@ -1,0 +1,6 @@
+Dataset,Source,n_total,n_immunogenic,n_non_immunogenic,Label_type,Peptide_lengths,n_HLA_alleles,n_cancer_types,RF_11dim_AUROC,RF_11dim_SD,GNN_target,Binding_scores_available,Notes
+ITSNdb,ITSNdb (Shao 2025),199,129,70,ELISpot/multimer,9-10 aa,31,16,0.682,0.075,>0.702,No,Fairest benchmark (homogeneous length)
+Val_dataset,Robbins et al.,120,7,113,Confirmed negative (Robbins),9 aa,7,Multiple,0.709,0.144,>0.729 (unreliable),No,Unreliable: n_pos=7 only
+NECID_mhci,NECID database,652,283,369,IFN-γ ELISpot,8-14 aa,69,23,0.874,0.009,>0.894 (length-inflated),No,RF inflated by length range
+Combined,ITSNdb+Val+NECID,971,419,552,Mixed assays,8-14 aa,69,26,0.927,0.006,>0.947,No,NECID-dominated
+VDJdb TAA,VDJdb 2026-05-16,154,154,0,TCR clonotype (VDJdb score>=2),8-13 aa,135,TAA/CTA,N/A (all pos),N/A,N/A,No,TAAs/CTAs; all confirmed epitopes

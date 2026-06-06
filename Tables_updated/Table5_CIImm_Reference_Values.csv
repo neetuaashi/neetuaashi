@@ -1,0 +1,21 @@
+Amino_acid,CIImm_E_kcal_mol,Boman_2003,Boman_impl,Boman_delta,Category
+A,0.127,-0.368,-0.368,0.0,Neutral
+C,-0.175,-0.24,-0.24,0.0,Charged/polar (low CIImm)
+D,0.072,2.06,2.06,0.0,Neutral
+E,0.325,2.02,2.02,0.0,Hydrophobic/aromatic (high CIImm)
+F,0.38,-0.764,-0.764,0.0,Hydrophobic/aromatic (high CIImm)
+G,0.11,-0.525,-0.525,0.0,Neutral
+H,0.105,0.822,0.822,0.0,Neutral
+I,0.432,-1.7,-1.7,0.0,Hydrophobic/aromatic (high CIImm)
+K,-0.7,1.83,1.83,0.0,Charged/polar (low CIImm)
+L,-0.036,-1.7,-1.7,0.0,Neutral
+M,-0.57,-0.67,-0.67,0.0,Charged/polar (low CIImm)
+N,-0.021,0.825,0.825,0.0,Neutral
+P,-0.036,-0.155,-0.155,0.0,Neutral
+Q,-0.376,0.731,0.731,0.0,Charged/polar (low CIImm)
+R,0.168,1.81,1.81,0.0,Neutral
+S,-0.537,-0.157,-0.157,0.0,Charged/polar (low CIImm)
+T,0.126,-0.131,-0.131,0.0,Neutral
+V,0.134,-1.22,-1.22,0.0,Neutral
+W,0.719,-0.593,-0.593,0.0,Hydrophobic/aromatic (high CIImm)
+Y,-0.012,-0.507,-0.507,0.0,Neutral

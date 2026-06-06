@@ -1,0 +1,12 @@
+Dim,Feature,Type,Source,Prior (missing),AUROC_TumorAgDB2,AUROC_ITSNdb,AUROC_NECID,AUROC_Combined,Notes
+0,NetMHCpan rank,Binding,NetMHCpan 4.1,0.5,0.79,0.5,0.5,0.5,Dominant binding predictor
+1,TAP score,Binding,Sette TAP,1.17,0.526,0.5,0.5,0.5,Transporter efficiency
+2,NetChop score,Binding,NetChop 3.1,0.68,0.5,0.5,0.5,0.5,Proteasomal cleavage
+3,log(1+TPM),Binding,RNA-seq,log1p(50),0.678,0.5,0.5,0.5,Tumour expression
+4,DAI NetMHC,Binding,NetMHCpan,0.0,0.626,0.5,0.5,0.5,log(mut/wt binding)
+5,Boman index,Sequence,Boman 2003,computed,0.509,0.598,0.564,0.533,Membrane-interaction energy
+6,Aliphatic idx/100,Sequence,Ikai 1980,computed,0.534,0.596,0.533,0.552,Branched-chain enrichment
+7,GRAVY,Sequence,Kyte-Doolittle,computed,0.518,0.601,0.52,0.505,Mean hydrophobicity
+8,Net charge/5,Sequence,pH 7.0,computed,0.534,0.72,0.523,0.543,Electrostatic charge
+9,Length norm,Sequence,Peptide length,computed,0.644,0.613,0.669,0.574,MHC groove fit
+10,Mean CIImm,Sequence,Miyazawa-Jernigan,computed,0.547,0.547,0.645,0.612,Contact-pair energy; novel dim 10

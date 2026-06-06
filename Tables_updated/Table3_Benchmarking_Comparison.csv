@@ -1,0 +1,8 @@
+Tool,Reference,Architecture,AUROC,F1,Accuracy,n_evaluated,Notes
+DeepImmuno,Li et al. 2021,Deep Learning,0.589,0.398,0.475,1058,IEDB test set
+PRIME 2.0,Schmidt et al. 2021,Random Forest,0.845,0.564,0.819,1180,Partial training overlap possible
+Seq2Neo,Diao et al. 2022,CNN,NR,NR,NR,NR,Not fully deployable
+NetTCR-2.2,Montemurro et al. 2022,Pan-specific CNN,ADD,ADD,ADD,1200,TO ADD: services.healthtech.dtu.dk/NetTCR-2.2
+DeepHLApan,Wu et al. 2019,Deep Learning,ADD,ADD,ADD,1200,TO ADD: biopharm.zju.edu.cn/deephlapan
+HLAIImPred,Ahmad et al. 2023,Ensemble,ADD,ADD,ADD,1200,TO ADD: webs.iiitd.edu.in/raghava/hlaiimpred
+Met-3DNet-VI (ours),This work,GATConv + FiLM + VN,0.76,0.54,0.719,1200,GNN; functional class recall: act=26.4% (exploratory)

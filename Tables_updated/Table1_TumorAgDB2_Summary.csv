@@ -1,0 +1,6 @@
+Source,n_peptides,Label,Length (aa),Binding scores,Notes
+NCI/HiTIDE,86,Immunogenic,8-14,Yes,NCI: 75; HiTIDE: 11
+TESLA,15,Immunogenic,8-14,Yes,Tumour neoantigen screening
+TumorAgDB2.0 (immunogenic),101,Immunogenic,8-14,Yes,Full 10-dim feature annotation
+TumorAgDB2.0 (hard negatives),7024,Non-immunogenic (MHC rank <2),9,Yes,High-affinity confirmed negatives
+Total training,7125,Mixed,9-14,Yes,Training augmentation set
