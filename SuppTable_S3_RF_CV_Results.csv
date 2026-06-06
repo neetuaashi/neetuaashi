@@ -1,0 +1,9 @@
+Dataset,Model,CV,AUROC_mean,AUROC_std,CIImm_gain,Reliability,GNN_target
+ITSNdb,RF-10dim (no CIImm),5-fold,0.6685,0.0528,-,Moderate,-
+ITSNdb,RF-11dim (+CIImm),5-fold,0.6818,0.0749,+0.0132,Moderate,>0.702
+NECID_mhci,RF-10dim (no CIImm),5-fold,0.8798,0.0275,-,High,-
+NECID_mhci,RF-11dim (+CIImm),5-fold,0.8735,0.0085,-0.0063,High,>0.894
+Combined,RF-10dim (no CIImm),5-fold,0.9326,0.0069,-,High (length-inflated),-
+Combined,RF-11dim (+CIImm),5-fold,0.9273,0.0061,-0.0053,High (length-inflated),>0.947
+Val_dataset,RF-10dim (no CIImm),3-fold (n_pos<10),0.8147,0.1111,-,Low (n_pos=7),-
+Val_dataset,RF-11dim (+CIImm),3-fold (n_pos<10),0.709,0.1441,-0.1057,Low (n_pos=7),Unreliable

@@ -1,0 +1,12 @@
+FiLM_dimension,Prior_value,Biological_meaning,Applied_when
+netmhcpan_rank,0.5,Median percentile rank (random binding),No NetMHCpan data available
+tap_score,1.17,Median TAP efficiency,No NetMHCpan data available
+netchop_score,0.68,Median C-terminal cleavage,No NetMHCpan data available
+rna_tpm_prior,50.0,Median tumour TPM expression (50 TPM),No NetMHCpan data available
+dai_netmhc,0.0,Zero differential agretopicity (wt=mut binding),No NetMHCpan data available
+boman_index,computed per peptide,Mean residue membrane-interaction energy (Boman 2003),Always computed from sequence
+aliphatic_idx/100,computed per peptide,Branched chain content (Ikai 1980) / 100,Always computed from sequence
+gravy,computed per peptide,Mean hydrophobicity (Kyte-Doolittle 1982),Always computed from sequence
+net_charge/5,computed per peptide,Net formal charge at pH 7 / 5 (normalised),Always computed from sequence
+length_norm,computed per peptide,Length deviation from 9-mer ((L-9)/3),Always computed from sequence
+mean_ciimm,computed per peptide,Mean residue-contact energy (Miyazawa-Jernigan),Always computed from sequence
